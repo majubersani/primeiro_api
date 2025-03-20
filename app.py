@@ -60,6 +60,7 @@ def verificar_par_impar(numero1):
 
 
 
+
 # @app.route('/')
 # def soma(numero1, numero2):
 #     adicao = numero1 + numero2
