@@ -45,6 +45,8 @@ def divisao(numero1, numero2):
         return str(numero1 / numero2)
     except ValueError:
         return "Apenas numeros inteiros"
+    except ZeroDivisionError:
+        return "Não podemos dividir por zero"
 
 
 @app.route('/verificar_par_impar/<numero1>')
